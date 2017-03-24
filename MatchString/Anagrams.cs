@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MatchString
+﻿namespace Anagrams
 {
-    public class MatchString
+    public class Anagrams
     {
-        public static bool Match(string s1, string s2)
+        public static bool IsAnagram(string s1, string s2)
         {
             if (s1.Length == s2.Length)
             {
